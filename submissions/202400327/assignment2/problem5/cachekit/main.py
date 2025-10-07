@@ -1,0 +1,17 @@
+from cachekit import Cache, print_version_info, VERSION
+if __name__ == "__main__":
+    print("--- cachekit Demo ---")
+    print_version_info()
+    print(f"VERSION variable is: {VERSION}")
+    print("\nCreating and using Cache object...")
+    c = Cache()
+    c.put("a", 1)
+    c.put("b", "hello")
+    print(f"After putting 'a' and 'b': len(c) = {len(c)}")
+    print(f"Getting 'a': {c.get('a')}")
+    c.put("a", 999)
+    print(f"After overwriting 'a': {c.get('a')}")
+    print(f"Getting missing key 'c' with default 42: {c.get('c', 42)}")
+    c.clear()
+    print(f"After clearing the cache: len(c) = {len(c)}")
+    print("\n--- Demo Finished ---")
