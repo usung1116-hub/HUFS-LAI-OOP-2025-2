@@ -39,7 +39,6 @@ def merge_freqs(maps: list[dict[str, int]]) -> dict[str, int]:
     # 1) 결과 딕셔너리 생성: result = {}
     # 2) 각 딕셔너리를 순회: for freq_dict in maps
     # 3) 각 키-값을 누적: result[key] = result.get(key, 0) + value
-    raise NotImplementedError
 
 
 if __name__ == "__main__":
@@ -53,3 +52,9 @@ if __name__ == "__main__":
         print(g)                         # {'x':3,'y':3}
     run_demo()
     pass
+"""
+(도움받은 내용):
+이 모듈의 함수들을 구현하며 생성형 AI(Gemini)의 도움을 받았습니다.
+- count_tokens: 딕셔너리의 .get() 메서드를 활용한 빈도수 계산법을 학습했습니다.
+- top_k: sorted() 함수의 key와 lambda를 이용한 정렬 방법을 구현하는 데 도움을 받았습니다.
+"""

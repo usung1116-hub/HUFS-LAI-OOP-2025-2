@@ -15,3 +15,7 @@ if __name__ == "__main__":
     c.clear()
     print(f"After clearing the cache: len(c) = {len(c)}")
     print("\n--- Demo Finished ---")
+"""
+(도움받은 내용):
+cachekit 패키지의 Cache 클래스를 구현하며 생성형 AI(Gemini)의 도움을 받았습니다. 파이썬 딕셔너리를 활용한 클래스 래핑 방법과, __len__과 같은 특별 메서드의 역할에 대해 학습했습니다.
+"""

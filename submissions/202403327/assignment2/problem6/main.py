@@ -175,3 +175,7 @@ if __name__ == "__main__":
 
     run_tests()
     pass
+"""
+(도움받은 내용):
+Metric 클래스 계층을 구현하며 생성형 AI(Gemini)의 도움을 받았습니다. 상속, 추상 클래스(ABC), 추상 메서드(@abstractmethod), super() 호출, 다형성의 개념을 학습하고 실제 코드로 구현하는 과정에서 도움을 받았습니다.
+"""
