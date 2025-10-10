@@ -1,4 +1,4 @@
-from cachekit import Cache, print_version_info, VERSION
+from . import Cache, print_version_info, VERSION
 if __name__ == "__main__":
     print("--- cachekit Demo ---")
     print_version_info()
